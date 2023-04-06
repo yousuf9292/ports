@@ -1,4 +1,5 @@
 import streamlit as st
+import smtplib, ssl
 
 st.set_page_config(layout="wide")
 st.snow()
@@ -81,6 +82,7 @@ col7,col8,col9=st.columns(3)
 with col7:
     with st.expander('Databases:file_folder:'):
         st.write(".SQL SERVER")
+        st.write(".MySQL")
         st.write(".SQL Hana")
         st.write(".MongoDB")
 
@@ -92,6 +94,6 @@ with col8:
 
 with col9:
     with st.expander('More:heavy_plus_sign:'):
-        st.write(".Beautiful Soup")
-        st.write(".Scrapy")
-        st.write(".Selenium")
+        st.write(".Requests")
+        st.write(".OpenCV")
+        st.write(".Twilio")
