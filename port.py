@@ -1,5 +1,4 @@
 import streamlit as st
-import smtplib, ssl
 
 st.set_page_config(layout="wide")
 st.snow()
@@ -19,7 +18,7 @@ with st.sidebar.expander("Any Thing For Me :question:"):
 
 
 
-with st.expander("There is something you need to see :eyes:"):
+with st.expander("There is something you need to see:eyes:"):
     col1,col2,col3=st.columns(3)
     with col1:
         st.subheader('Web Application')
@@ -55,14 +54,14 @@ with st.expander("There is something you need to see :eyes:"):
 
 col4,col5,col6=st.columns(3)
 with col4:
-    with st.expander('Web Application Frameworks :spider:'):
+    with st.expander('Web Application Frameworks:spider:'):
         st.write(".Flask")
         st.write(".Streamlit")
         st.write(".Dash Plotly")
 
 
 with col5:
-    with st.expander('Data Science Frameworks/BI Tools :notebook: :panda_face: :chart:'):
+    with st.expander('Data Science Frameworks/BI Tools:notebook::panda_face::chart:'):
         st.write(".Pandas")
         st.write(".Numpy")
         st.write(".Power BI")
@@ -71,9 +70,28 @@ with col5:
         st.write(".PlotlyExpress")
         st.write(".Jupyter Notebook")
 
+
 with col6:
-    with st.expander('ERP Systems :man_in_business_suit_levitating:'):
+    with st.expander('ERP Systems:man_in_business_suit_levitating:'):
         st.write(".SAP B1")
         st.write(".Odoo")
 
 
+col7,col8,col9=st.columns(3)
+with col7:
+    with st.expander('Databases:file_folder:'):
+        st.write(".SQL SERVER")
+        st.write(".SQL Hana")
+        st.write(".MongoDB")
+
+with col8:
+    with st.expander('Web Scrapping:spider:'):
+        st.write(".Beautiful Soup")
+        st.write(".Scrapy")
+        st.write(".Selenium")
+
+with col9:
+    with st.expander('More:heavy_plus_sign:'):
+        st.write(".Beautiful Soup")
+        st.write(".Scrapy")
+        st.write(".Selenium")
